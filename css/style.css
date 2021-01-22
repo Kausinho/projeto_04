@@ -21,6 +21,7 @@
     max-width: 1280px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -48,7 +49,6 @@ header nav.menu-desktop{
 }
 
 header nav.menu-mobile{
-    
     display: none;
 }
 
@@ -202,8 +202,7 @@ section.perfil-container .texto-perfil p{
     }
 
     header nav.menu-mobile{
-        display: flex;
-        align-items: right;
+        margin-left: 340px;
         display: block;
     }
 
