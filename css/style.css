@@ -49,6 +49,11 @@ header nav.menu-desktop{
 }
 
 header nav.menu-mobile{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    background-image: url('../images/menu-mobile.png');
+    background-size: 100% 100%;
     display: none;
 }
 
@@ -228,7 +233,13 @@ section.perfil-container .texto-perfil p{
         padding: 30px 2%;
     }
 
+    section.perfil-container .perfil-wraper{
+        padding-top: 0;
+    }
+
     section.perfil-container .perfil-wraper2{
+        height: auto;
+        position: static;
         text-align: center;
         display: inline-block;
     }
