@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
 
 /*Estas são as classes do site*/
@@ -12,13 +12,13 @@
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
 
 .container-single{
-    max-width: 1280px;
+    max-width: 1400px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -38,23 +38,41 @@ header{
 }
 
 header.logo img{
-    float: left;
     width: 236px;
 }
 
 header nav.menu-desktop{
     display: flex;
-    margin-left: 570px;
-    float: right;
 }
 
 header nav.menu-mobile{
+    float: right;
     width: 28px;
     height: 28px;
+    margin-top: 7px;
     cursor: pointer;
     background-image: url('../images/menu-mobile.png');
     background-size: 100% 100%;
     display: none;
+}
+
+header nav.menu-mobile ul{
+    display: none;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+}
+
+header nav.menu-mobile ul li{
+    text-transform: uppercase;
+}
+
+header nav.menu-mobile ul li{
+    padding: 10px 0;
 }
 
 header nav.menu-desktop ul{
@@ -198,6 +216,21 @@ section.perfil-container .texto-perfil p{
 
 /******/
 
+/*Sessão Vídeos*/
+
+section.videos{
+    padding: 50px 0;
+}
+
+section.videos .box-video{
+    float: left;
+    width: 33.3%;
+    background-color: green;
+    padding-top: calc(33.3% * 0.6);
+}
+
+/******/
+
 /*Sessão Media Querys*/
 
 @media screen and (max-width: 768px){
@@ -207,7 +240,6 @@ section.perfil-container .texto-perfil p{
     }
 
     header nav.menu-mobile{
-        margin-left: 340px;
         display: block;
     }
 
