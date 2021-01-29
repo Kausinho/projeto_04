@@ -18,7 +18,7 @@
 }
 
 .container-single{
-    max-width: 1400px;
+    max-width: 1280px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -46,7 +46,6 @@ header nav.menu-desktop{
 }
 
 header nav.menu-mobile{
-    float: right;
     width: 28px;
     height: 28px;
     margin-top: 7px;
@@ -242,9 +241,38 @@ section.videos iframe{
 
 /*Sessão Tratamentos*/
 
+section.tratamentos{
+    padding: 70px 0;
+}
+
 section.tratamentos .tratamento-container{
     display: flex;
     justify-content: space-between;
+}
+
+section.tratamentos > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.tratamentos > .container{
+    padding: 80px 0;
+}
+
+.tratamento-single{
+    padding: 20px;
+}
+
+.tratamento-single h2{
+    font-size: 18px;
+    color: #737373;
+}
+
+.tratamento-single p{
+    padding: 10px 0;
+    font-size: 13px;
+    color: #b4b4b4;
 }
 
 /******/
