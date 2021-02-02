@@ -437,6 +437,23 @@ section.contato form{
 
 /******/
 
+/*Sessão Footer*/
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+    background-color: #688293;
+}
+
+footer .footer-block{
+    display: inline-block;
+    text-align: left;
+    width: 33.3%;
+    margin-right: -4px;
+}
+
+/******/
+
 /*Sessão Media Querys*/
 
 @media screen and (max-width: 1024px){
