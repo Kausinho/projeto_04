@@ -176,7 +176,7 @@ section.perfil-container .container{
 }
 
 section.perfil-container .perfil-wraper{
-    padding-top: 60%;
+    padding-top: 50%;
     position: relative;
 }
 
@@ -207,7 +207,7 @@ section.perfil-container .texto-perfil h2{
 }
 
 section.perfil-container .texto-perfil p{
-    color: rgb(190,190,190);
+    color: rgb(160,160,160);
     font-size: 15px;
     line-height: 25px;
     margin-top: 8px;
@@ -481,6 +481,34 @@ footer .footer-block{
     }
 }
 
+@media screen and (max-width: 850px){
+
+    section.perfil-container .perfil-wraper{
+        padding-top: 0;
+    }
+
+    section.perfil-container .perfil-wraper2{
+        height: auto;
+        position: static;
+        text-align: center;
+        display: inline-block;
+    }
+
+    section.perfil-container .img-perfil{
+        width: 50%;
+        padding-top: 70%;
+        display: inline-block;
+        height: auto;
+    }
+    
+    section.perfil-container .texto-perfil{
+        display: inline-block;
+        text-align: justify;
+        width: 100%;
+        padding: 80px 30px 30px 30px;
+    }
+}
+
 @media screen and (max-width: 768px){
 
     header nav.menu-desktop{
@@ -513,31 +541,6 @@ footer .footer-block{
         padding: 30px 2%;
     }
 
-    section.perfil-container .perfil-wraper{
-        padding-top: 0;
-    }
-
-    section.perfil-container .perfil-wraper2{
-        height: auto;
-        position: static;
-        text-align: center;
-        display: inline-block;
-    }
-
-    section.perfil-container .img-perfil{
-        width: 50%;
-        padding-top: 70%;
-        display: inline-block;
-        height: auto;
-    }
-    
-    section.perfil-container .texto-perfil{
-        display: inline-block;
-        text-align: justify;
-        width: 100%;
-        padding: 0 30px;
-    }
-
     section.videos{
         text-align: center;
     }
@@ -545,6 +548,7 @@ footer .footer-block{
     section.videos .box-video{
         float: none;
         width: 70%;
+        margin-top: 30px;
         display: inline-block;
         padding-top: calc(70% * 0.6);
     }
